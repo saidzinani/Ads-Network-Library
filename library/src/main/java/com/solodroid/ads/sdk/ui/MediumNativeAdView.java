@@ -73,9 +73,9 @@ public class MediumNativeAdView extends LinearLayout {
         if (startAppDrawable != null) {
             setStartAppNativeButtonColor(startAppDrawable);
         }
-
+        
         arr.recycle();
-
+        
     }
 
     public void setAdMobNativeButtonColor(Drawable background) {
@@ -85,5 +85,4 @@ public class MediumNativeAdView extends LinearLayout {
     public void setStartAppNativeButtonColor(Drawable background) {
         btnNativeStartApp.setBackground(background);
     }
-
 }
